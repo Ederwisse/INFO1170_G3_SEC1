@@ -3,12 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" >
     <title>Luz alerta</title>
 </head>
 <body>
-    <header>
-        Bienvenidos a LuzAlerta
-    </header>
+    <header>¡Bienvenido a LuzAlerta!</header>
+    <div class="Formulario">
+        <h1>Inicio de sesion</h1>
+        <form method="post">
+            <div class="Nombre">
+                <input type="text" required>
+                <label>Nombre de Usuario</label>
+            </div>
+        </form>
+        <div class="Contraseña">
+            <input type="password" required>
+            <label>Contraseña</label>
+        </div>
+        <div class="reestablecer">¿Olvido su contraseña?</div>
+        <input type="submit" value="iniciar">
+        <div class="Registro"><a href="#">Registrate</a>
+        </div>
+    </div>
+
 </body>
 
 </html>
